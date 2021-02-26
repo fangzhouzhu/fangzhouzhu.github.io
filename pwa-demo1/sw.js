@@ -4,7 +4,12 @@ self.addEventListener('install', (e) => {
     caches
       .open(name)
       .then((cache) =>
-        cache.addAll(['./index.html', './index.js', './style.css'])
+        cache.addAll([
+          '/pwa-demo1/',
+          '/pwa-demo1/index.html',
+          '/pwa-demo1/index.js',
+          '/pwa-demo1/style.css',
+        ])
       )
   );
 });

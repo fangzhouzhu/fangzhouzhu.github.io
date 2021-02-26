@@ -3,7 +3,7 @@
   "description": "This is PWA",
   "name": "This is PWA",
   "short_name": "PWA",
-  "start_url": "/",
+  "start_url": "/pwa-demo1/index.html",
   "display": "fullscreen",
   "icons": [
     {
