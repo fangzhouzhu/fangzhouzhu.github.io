@@ -1,0 +1,43 @@
+html,body {
+  height: 100%;
+  background-color:#000 ;
+  padding:0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+h1{
+  font-size: 200px;
+  text-align: center;
+  background-image: linear-gradient(
+    to right,
+    orangered,
+    orange,
+    gold,
+    lightgreen,
+    cyan,
+    dodgerblue,
+    mediumpurple,
+    hotpink,
+    orangered);
+background-size: 110vw;
+animation: sliding 100s linear infinite;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+@keyframes sliding {
+  to {
+      background-position: -2000vw;
+  }
+}
+.add-button {
+  position: fixed;
+  top: 1px;
+  left: 1px;
+  border:1px solid #fff;
+  height: 30px;
+  border-radius: 3px;
+  cursor: pointer;
+}
