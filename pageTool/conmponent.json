@@ -1,0 +1,28 @@
+{
+  "compArr":[
+    {"name":"airConditioning"},
+    {"name":"announcement"},
+    {"name":"consumePower"},
+    {"name":"dashboard"},
+    {"name":"dateTime"},
+    {"name":"energy"},
+    {"name":"energyBarChart"},
+    {"name":"energyConservation"},
+    {"name":"energyCr"},
+    {"name":"energyDashboard"},
+    {"name":"energyIcon"},
+    {"name":"energyMonth"},
+    {"name":"function"},
+    {"name":"lineChart"},
+    {"name":"monitor"},
+    {"name":"rador"},
+    {"name":"space"},
+    {"name":"textCon"},
+    {"name":"topTitle"},
+    {"name":"warning"},
+    {"name":"weather"},
+    {"name":"pieChart"},
+    {"name":"chinaMap"},
+    {"name":"pushButton"}
+  ]
+}

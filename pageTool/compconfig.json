@@ -1,0 +1,676 @@
+﻿{
+  "result": [
+    {
+      "name": "小构件",
+      "components": [
+        {
+          "component": "topTitle",
+          "name": "标题",
+          "component_type": "component",
+          "icon": "ios-notifications-outline",
+          "component_payloads": [
+            {
+              "name": "标题",
+              "key": "title",
+              "value": "标题",
+              "type": "text"
+            },
+            {
+              "name": "文本颜色",
+              "key": "text_color",
+              "value": "#fff",
+              "type": "color"
+            },
+            {
+              "name": "字体大小",
+              "key": "font_size",
+              "value": "20",
+              "type": "number"
+            }
+          ]
+        },
+        {
+          "component": "weather",
+          "name": "天气",
+          "icon": "ios-cloud",
+          "component_payloads": [
+            {
+              "name": "城市",
+              "key": "city",
+              "value": "北京",
+              "type": "text"
+            }
+          ]
+        },
+        {
+
+          "component": "dashboard",
+          "name": "仪表盘",
+          "icon": "ios-timer-outline",
+          "component_payloads": [
+            {
+              "name": "标题",
+              "key": "title",
+              "value": "仪表盘",
+              "type": "text"
+            },
+            {
+              "name": "最小值",
+              "key": "min",
+              "value": "10",
+              "type": "text"
+            },
+            {
+              "name": "最大值",
+              "key": "max",
+              "value": "100",
+              "type": "text"
+            },
+            {
+              "name": "表盘左侧颜色",
+              "key": "left_color",
+              "value": "#CD9B1D",
+              "type": "color"
+            },
+            {
+              "name": "表盘中间颜色",
+              "key": "center_color",
+              "value": "#48D1CC",
+              "type": "color"
+            },
+            {
+              "name": "表盘右侧颜色",
+              "key": "right_color",
+              "value": "#00FF7F",
+              "type": "color"
+            },
+            {
+              "name": "后缀",
+              "key": "after",
+              "value": "%",
+              "type": "text"
+            },
+            {
+              "name": "字体大小",
+              "key": "font_size",
+              "value": "14",
+              "type": "number"
+            },
+            {
+              "name": "Tag",
+              "key": "tag",
+              "value": "tag1",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "component": "lineChart",
+          "name": "折线图",
+          "icon": "md-trending-up",
+          "component_payloads": [
+            {
+
+              "name": "标题",
+              "key": "title",
+              "value": "折线图",
+              "type": "text"
+            },
+            {
+              "name": "折线颜色",
+              "key": "line_color",
+              "value": "#FEC201",
+              "type": "color"
+            },
+            {
+              "name": "文字颜色",
+              "key": "text_color",
+              "value": "#fff",
+              "type": "color"
+            },
+            {
+              "name": "折线点颜色",
+              "key": "line_point_color",
+              "value": "#FEC201",
+              "type": "color"
+            },
+            {
+
+              "name": "分割线颜色",
+              "key": "split_line_color",
+              "value": "#FEC201",
+              "type": "color"
+            }
+          ]
+        },
+        {
+          "component": "dateTime",
+          "name": "时间",
+          "icon": "md-time",
+          "component_payloads": [
+            {
+              "name": "字体颜色",
+              "key": "text_color",
+              "value": "#fff",
+              "type": "color"
+            }
+          ]
+        },
+        {
+          "component": "announcement",
+          "name": "公告文本",
+          "icon": "md-tablet-portrait",
+          "component_payloads": [
+            {
+              "name": "标题",
+              "key": "title",
+              "value": "事务公告",
+              "type": "text"
+            },
+            {
+              "name": "文本颜色",
+              "key": "text_color",
+              "value": "#fff",
+              "type": "color"
+            },
+            {
+              "name": "字体大小",
+              "key": "font_size",
+              "value": "14",
+              "type": "number"
+            },
+            {
+              "name": "文本",
+              "key": "textarea",
+              "value": "使用 iView 3 时，可以进行全局配置组件的一些属性。  目前只支持配置 transfer 和 size 两个属性。组件会优先使用 prop 设置的属性，如果未设置，再使用全局配置。  transfer：所有带浮层的组件，是否将浮层放置在 body 内，默认为不设置，详见各组件默认的 transfer 值。可选值为 true 或 false。 size：所有带有 size 属性的组件的尺寸，默认为不设置，详见各组件默认的 size 值。可选值为 default、small 或 large。",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "component": "energyCr",
+          "name": "能耗排名",
+          "icon": "ios-star",
+          "component_payloads": [
+            {
+              "name": "标题",
+              "key": "title",
+              "value": "",
+              "type": "text"
+            },
+            {
+              "name": "数据点",
+              "key": "data_url",
+              "value": null,
+              "type": "text"
+            },
+            {
+              "name": "图标",
+              "key": "icon",
+              "value": null,
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "component": "energyIcon",
+          "name": "能耗图示",
+          "icon": "ios-podium-outline ",
+          "component_payloads": [
+            {
+              "name": "标题",
+              "key": "title",
+              "value": "标题",
+              "type": "text"
+            },
+            {
+              "name": "一类能耗单位",
+              "key": "unit1",
+              "value": "T",
+              "type": "text"
+            },
+            {
+              "name": "一类能耗名称",
+              "key": "name1",
+              "value": null,
+              "type": "text"
+            },
+            {
+              "name": "二类能耗单位",
+              "key": "unit2",
+              "value": null,
+              "type": "text"
+            },
+            {
+              "name": "二类能耗名称",
+              "key": "name2",
+              "value": null,
+              "type": "text"
+            },
+            {
+              "name": "三类能耗单位",
+              "key": "unit3",
+              "value": null,
+              "type": "text"
+            },
+            {
+              "name": "三类能耗名称",
+              "key": "name3",
+              "value": null,
+              "type": "text"
+            },
+            {
+              "name": "四类能耗单位",
+              "key": "unit4",
+              "value": null,
+              "type": "text"
+            },
+            {
+              "name": "四类能耗名称",
+              "key": "name4",
+              "value": null,
+              "type": "text"
+            },
+            {
+              "name": "五类能耗单位",
+              "key": "unit5",
+              "value": null,
+              "type": "text"
+            },
+            {
+              "name": "五类能耗名称",
+              "key": "name5",
+              "value": null,
+              "type": "text"
+            },
+            {
+              "name": "数据点",
+              "key": "data_url",
+              "value": null,
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "component": "airConditioning",
+          "name": "空调",
+          "icon": "md-snow",
+          "component_payloads": [
+            {
+              "name": "标题",
+              "key": "title",
+              "value": "title",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "component": "energyConservation",
+          "thumb": "/upload/123.jpg",
+          "name": "节能诊断",
+          "icon": "ios-apps",
+          "component_payloads": [
+            {
+              "name": "标题",
+              "key": "title",
+              "value": "标题",
+              "type": "text"
+            },
+            {
+              "name": "tag",
+              "key": "tag",
+              "value": null,
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "component": "energyBarChart",
+          "name": "能耗柱状图",
+          "icon": "ios-podium-outline",
+          "component_payloads": [
+            {
+              "name": "标题",
+              "key": "title",
+              "value": "标题",
+              "type": "text"
+            },
+            {
+              "name": "柱开始颜色",
+              "key": "bar_color_start",
+              "value": "#102fc1",
+              "type": "color"
+            },
+            {
+              "name": "柱结束颜色",
+              "key": "bar_color_end",
+              "value": "#063374",
+              "type": "color"
+            },
+            {
+              "name": "分割线颜色",
+              "key": "split_line_color",
+              "value": "#063374",
+              "type": "color"
+            },
+            {
+              "name": "柱宽度",
+              "key": "bar_width",
+              "value": "12",
+              "type": "number"
+            }
+          ]
+        },
+        {
+          "component": "energyMonth",
+          "name": "每月耗电分布",
+          "icon": "ios-apps",
+          "component_payloads": [
+            {
+              "name": "标题",
+              "key": "title",
+              "value": "标题",
+              "type": "text"
+            },
+            {
+              "name": "数据点",
+              "key": "data_url",
+              "value": null,
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "component": "textCon",
+          "name": "文本",
+          "icon": "ios-apps",
+          "component_payloads": [
+            {
+              "name": "文字",
+              "key": "text",
+              "value": "qqq",
+              "type": "text"
+            },
+            {
+              "name": "文本颜色",
+              "key": "text_color",
+              "value": "#fff",
+              "type": "color"
+            },
+            {
+              "name": "字体大小",
+              "key": "font_size",
+              "value": "14",
+              "type": "number"
+            }
+          ]
+        },
+        {
+          "component": "pieChart",
+          "name": "饼状图",
+          "icon": "ios-pie",
+          "component_payloads": [
+            {
+              "name": "标题",
+              "key": "title",
+              "value": "标题",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "component": "pushButton",
+          "name": "按钮",
+          "icon": "md-radio-button-on",
+          "component_payloads": [
+            {
+              "name": "按钮名",
+              "key": "label",
+              "value": "按钮",
+              "type": "text"
+            },
+            {
+              "name": "字体大小",
+              "key": "font_size",
+              "value": "30",
+              "type": "number"
+            },
+            {
+              "name": "字体颜色",
+              "key": "font_color",
+              "value": "#ccc",
+              "type": "color"
+            },
+            {
+              "name": "边框颜色",
+              "key": "border_color",
+              "value": "#ccc",
+              "type": "color"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "中构件",
+      "components": [
+        {
+          "component": "rador",
+          "name": "雷达图",
+          "icon": "ios-aperture-outline",
+          "component_payloads": [
+            {
+              "name": "标题",
+              "key": "title",
+              "value": "标题",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "component": "warning",
+          "name": "报警信息",
+          "icon": "ios-alert-outline",
+          "component_payloads": [
+            {
+              "name": "名称",
+              "key": "name",
+              "value": "烟感",
+              "type": "text"
+            },
+            {
+              "name": "图标",
+              "key": "icon",
+              "value": null,
+              "type": "text"
+            },
+            {
+              "name": "数据点",
+              "key": "data_point_type",
+              "value": null,
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "component": "energy",
+          "name": "能耗",
+          "icon": "ios-chatbubbles-outline",
+          "component_payloads": [
+            {
+              "name": "标题",
+              "key": "title",
+              "value": "能耗",
+              "type": "text"
+            },
+            {
+              "name": "数据点",
+              "key": "data_url",
+              "value": null,
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "component": "monitor",
+          "name": "监控",
+          "icon": "md-umbrella",
+          "component_payloads": [
+            {
+              "name": "一处监控hls",
+              "key": "hls1",
+              "value": "",
+              "type": "text"
+            },
+            {
+              "name": "一处监控flash1",
+              "key": "rtmp1",
+              "value": null,
+              "type": "text"
+            },
+            {
+              "name": "一处监控位置",
+              "key": "monitor_position1",
+              "value": null,
+              "type": "text"
+            },
+            {
+              "name": "二处监控hls",
+              "key": "hls2",
+              "value": null,
+              "type": "text"
+            },
+            {
+              "name": "二处监控flash",
+              "key": "rtmp2",
+              "value": null,
+              "type": "text"
+            },
+            {
+              "name": "二处监控位置",
+              "key": "monitor_position2",
+              "value": null,
+              "type": "text"
+            },
+            {
+              "name": "三处监控hls",
+              "key": "hls3",
+              "value": null,
+              "type": "text"
+            },
+            {
+              "name": "三处监控flash",
+              "key": "rtmp3",
+              "value": null,
+              "type": "text"
+            },
+            {
+              "name": "三处监控位置",
+              "key": "monitor_position3",
+              "value": null,
+              "type": "text"
+            },
+            {
+              "name": "标题",
+              "key": "title",
+              "value": null,
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "component": "energyDashboard",
+          "name": "能耗仪表盘",
+          "icon": "ios-barcode-outline",
+          "component_payloads": [
+            {
+              "name": "名称",
+              "key": "name",
+              "value": "仪表盘",
+              "type": "text"
+            },
+            {
+              "name": "值颜色",
+              "key": "value_color",
+              "value": "#1335c8",
+              "type": "color"
+            },
+            {
+              "name": "空白颜色",
+              "key": "blank_color",
+              "value": "#2b6cda",
+              "type": "color"
+            },
+            {
+              "name": "字体大小",
+              "key": "font_size",
+              "value": "14",
+              "type": "number"
+            },
+            {
+              "name": "Tag",
+              "key": "tag",
+              "value": "temperature",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "component": "consumePower",
+          "name": "耗电分布",
+          "icon": "ios-book-outline",
+          "component_payloads": [
+            {
+              "name": "标题",
+              "key": "title",
+              "value": "耗电分布",
+              "type": "text"
+            },
+            {
+              "name": "数据点",
+              "key": "data_url",
+              "value": null,
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "大构件",
+      "components": [
+        {
+          "component": "space",
+          "name": "空间",
+          "icon": "ios-card-outline",
+          "component_payloads": []
+        },
+        {
+          "component": "function",
+          "name": "功能",
+          "icon": "md-attach",
+          "component_payloads": []
+        },
+        {
+          "component": "btns",
+          "name": "按钮组",
+          "icon": "md-barcode",
+          "component_payloads": []
+        },
+        {
+          "component": "chinaMap",
+          "name": "地图",
+          "icon": "md-planet",
+          "component_payloads": [
+            {
+              "name": "背景颜色",
+              "key": "bg_color",
+              "value": "#404a59",
+              "type": "color"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
