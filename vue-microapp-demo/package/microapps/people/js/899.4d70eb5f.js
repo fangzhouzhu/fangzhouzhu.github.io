@@ -1,0 +1,1 @@
+"use strict";(self["webpackJsonp_people"]=self["webpackJsonp_people"]||[]).push([[899],{899:function(e,s,t){t.r(s),t.d(s,{default:function(){return a}});var l=function(){var e=this,s=e._self._c;return s("div",{staticClass:"hello"},[e._v("test111111111")])},n=[],p={name:"Test1",props:{msg:String}},r=p,u=t(1),o=(0,u.Z)(r,l,n,!1,null,null,null),a=o.exports}}]);
